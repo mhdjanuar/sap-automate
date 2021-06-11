@@ -63,9 +63,9 @@ public class SapKeywords {
 	def static login(String username, String password) {
 		def obj;
 		obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/txtRSYST-BNAME").toDispatch());
-		obj.setProperty("text", "BPINST");
+		obj.setProperty("text", username);
 		obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/pwdRSYST-BCODE").toDispatch());
-		obj.setProperty("text", "Welcome1");
+		obj.setProperty("text", password);
 		obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
 		obj.invoke("sendVKey", 0);
 	}
