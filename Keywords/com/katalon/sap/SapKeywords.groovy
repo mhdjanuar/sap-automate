@@ -78,6 +78,13 @@ public class SapKeywords {
 	}
 
 	@Keyword
+	def static getElementPropertyByName(String name, String propertyName) {
+		def obj;
+		obj = new ActiveXComponent(session.invoke("findByName", name).toDispatch());
+		return obj.getProperty(propertyName).toJavaObject()
+	}
+
+	@Keyword
 	def static invokeElementAction(String locator, String action) {
 		def obj;
 		obj = new ActiveXComponent(session.invoke("findById", locator).toDispatch());
@@ -90,11 +97,32 @@ public class SapKeywords {
 		obj = new ActiveXComponent(session.invoke("findById", locator).toDispatch());
 		obj.invoke(action, args)
 	}
+	
+	@Keyword
+	def static invokeElementActionByName(String name, String action) {
+		def obj;
+		obj = new ActiveXComponent(session.invoke("findByName", name).toDispatch());
+		obj.invoke(action)
+	}
+
+	@Keyword
+	def static invokeElementActionByName(String name, String action, String args) {
+		def obj;
+		obj = new ActiveXComponent(session.invoke("findByName", name).toDispatch());
+		obj.invoke(action, args)
+	}
 
 	@Keyword
 	def static setText(String locator, String text) {
 		def obj;
 		obj = new ActiveXComponent(session.invoke("findById", locator).toDispatch());
+		obj.setProperty('text', text)
+	}
+	
+	@Keyword
+	def static setTextByName(String name, String text) {
+		def obj;
+		obj = new ActiveXComponent(session.invoke("findByName", name).toDispatch());
 		obj.setProperty('text', text)
 	}
 
@@ -104,11 +132,25 @@ public class SapKeywords {
 		obj = new ActiveXComponent(session.invoke("findById", locator).toDispatch());
 		obj.invoke('press')
 	}
-	
+
+	@Keyword
+	def static clickByName(String name) {
+		def obj;
+		obj = new ActiveXComponent(session.invoke("findByName", name).toDispatch());
+		obj.invoke('press')
+	}
+
 	@Keyword
 	def static sendKey(String locator, int key) {
 		def obj;
 		obj = new ActiveXComponent(session.invoke("findById", locator).toDispatch());
+		obj.invoke('sendVKey', key)
+	}
+
+	@Keyword
+	def static sendKeyByName(String name, int key) {
+		def obj;
+		obj = new ActiveXComponent(session.invoke("findByName", name).toDispatch());
 		obj.invoke('sendVKey', key)
 	}
 }
