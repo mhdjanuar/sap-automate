@@ -20,3 +20,7 @@ Open Profiles/default and change the username and password to your SAP account.
 
 ## Videos tutorial
 - Recording script with Scripting Tracker: Videos/Record test script tutorial.mp4
+
+## Locator strategy
+findById
+findByName (https://blogs.sap.com/2017/04/12/how-to-combine-sap-gui-scripting-and-selenium-webdriver#comment-418401)
