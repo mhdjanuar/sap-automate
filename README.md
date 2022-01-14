@@ -26,7 +26,6 @@ Open Profiles/default and change the username and password to your SAP account.
 - findByName (https://blogs.sap.com/2017/04/12/how-to-combine-sap-gui-scripting-and-selenium-webdriver#comment-418401)
 
 ## Troubleshoot errors
-1. 
 ```
 com.jacob.com.ComFailException: Can't co-create object
 ```
