@@ -1,6 +1,6 @@
 # Katalon SAP GUI Client sample project
 
-## Prequiresites:
+## Prerequisites:
 
 - Katalon Studio v7+
 - WinAppDriver 1.1+
