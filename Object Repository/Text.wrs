@@ -11,6 +11,7 @@
       <name>ElementIndex</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>1169ea64-be5a-4c0c-a408-ff3821efca66</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -18,6 +19,7 @@
       <name>RuntimeId</name>
       <type>Main</type>
       <value>42,263856,2,0,0</value>
+      <webElementGuid>656f7d25-58d0-4241-842e-03f44fa370e2</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -25,6 +27,7 @@
       <name>ItemStatus</name>
       <type>Main</type>
       <value></value>
+      <webElementGuid>2d9acbda-79d2-46be-90a2-f9e77a1b99fd</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -32,6 +35,7 @@
       <name>IsRequiredForForm</name>
       <type>Main</type>
       <value>False</value>
+      <webElementGuid>83d620db-46a6-40d3-b9a6-d45b0ed6a127</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -39,6 +43,7 @@
       <name>FrameworkId</name>
       <type>Main</type>
       <value>Win32</value>
+      <webElementGuid>2ea75293-0073-47c4-91fa-009047b1aeed</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -46,6 +51,7 @@
       <name>Orientation</name>
       <type>Main</type>
       <value>None</value>
+      <webElementGuid>71b48f36-ecee-4895-8a7b-0c0dbcfea0f7</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -53,6 +59,7 @@
       <name>IsOffscreen</name>
       <type>Main</type>
       <value>False</value>
+      <webElementGuid>6c94e3ef-1592-4014-996c-7906e98a51b8</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -60,6 +67,7 @@
       <name>ProcessId</name>
       <type>Main</type>
       <value>1784</value>
+      <webElementGuid>a267c84c-1c31-4bc0-b439-8a5b77f1a245</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -67,6 +75,7 @@
       <name>NativeWindowHandle</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>bb27a13f-a549-4d0c-914f-a2c26786522f</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -74,6 +83,7 @@
       <name>ClassName</name>
       <type>Main</type>
       <value></value>
+      <webElementGuid>5fb9eb0a-5b23-4ce7-aa3f-e4879bf0b835</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -81,6 +91,7 @@
       <name>ItemType</name>
       <type>Main</type>
       <value></value>
+      <webElementGuid>392899e6-4a91-446c-9f08-654c720252f4</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -88,6 +99,7 @@
       <name>AutomationId</name>
       <type>Main</type>
       <value>ListViewSubItem-0</value>
+      <webElementGuid>04544855-41f2-4668-b6d5-499f477149b3</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -95,6 +107,7 @@
       <name>IsContentElement</name>
       <type>Main</type>
       <value>True</value>
+      <webElementGuid>734b740c-630e-4a8b-9635-96310346e738</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -102,6 +115,7 @@
       <name>IsControlElement</name>
       <type>Main</type>
       <value>True</value>
+      <webElementGuid>befd4c58-da6a-4df8-8fc6-72acabb058a3</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -109,6 +123,7 @@
       <name>HelpText</name>
       <type>Main</type>
       <value></value>
+      <webElementGuid>7bf21206-7f8b-4706-9a69-920bbc23e8e5</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -116,6 +131,7 @@
       <name>BoundingRectangle</name>
       <type>Main</type>
       <value>90,182,764,18</value>
+      <webElementGuid>af34a913-faf9-4976-b272-5ca51177a39a</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -123,6 +139,7 @@
       <name>IsEnabled</name>
       <type>Main</type>
       <value>True</value>
+      <webElementGuid>f760a0ac-431c-43fa-8816-0b293cc2d299</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -130,6 +147,7 @@
       <name>IsKeyboardFocusable</name>
       <type>Main</type>
       <value>True</value>
+      <webElementGuid>2a10adc9-d96a-4408-8359-4457bce1594a</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -137,6 +155,7 @@
       <name>HasKeyboardFocus</name>
       <type>Main</type>
       <value>False</value>
+      <webElementGuid>8bea51fe-2cda-4c13-a80c-1bd19e6f06b9</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -144,6 +163,7 @@
       <name>AccessKey</name>
       <type>Main</type>
       <value></value>
+      <webElementGuid>1f51e1fd-8855-4d71-b495-cb154f06b2aa</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -151,6 +171,7 @@
       <name>AcceleratorKey</name>
       <type>Main</type>
       <value></value>
+      <webElementGuid>88fb630e-bccd-4398-9076-240c1d68d8bf</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -158,6 +179,7 @@
       <name>Name</name>
       <type>Main</type>
       <value>SAP S/4HANA Fully-Activated Appliance</value>
+      <webElementGuid>e164a8d5-b585-443a-8fab-ee92335a30c7</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -165,6 +187,7 @@
       <name>LocalizedControlType</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>67b81deb-f5a7-4349-9d4a-98fc44335abb</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -172,6 +195,7 @@
       <name>IsPassword</name>
       <type>Main</type>
       <value>False</value>
+      <webElementGuid>898f69a6-acce-4965-9a95-4fa7ea39b837</webElementGuid>
    </properties>
    <properties>
       <isSelected>false</isSelected>
@@ -179,5 +203,6 @@
       <name>XPath</name>
       <type>Main</type>
       <value>/Window/List[1]/ListItem[1]/Text[1]</value>
+      <webElementGuid>d8ae6d78-43de-4e15-9da4-00f275c2cc7b</webElementGuid>
    </properties>
 </WindowsElementEntity>

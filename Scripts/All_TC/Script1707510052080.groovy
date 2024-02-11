@@ -17,6 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplication('C:\\Program Files (x86)\\SAP\\FrontEnd\\SapGui\\saplogon.exe')
-
-Windows.doubleClick(findWindowsObject('Object Repository/Text'))
+WebUI.callTestCase(findTestCase('TC_05_Manage_SO'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC_07_Manage_Contract_And_Billing_Doc'), [:], FailureHandling.STOP_ON_FAILURE)

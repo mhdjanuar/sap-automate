@@ -97,7 +97,7 @@ public class SapKeywords {
 		obj = new ActiveXComponent(session.invoke("findById", locator).toDispatch());
 		obj.invoke(action, args)
 	}
-	
+
 	@Keyword
 	def static invokeElementActionByName(String name, String action) {
 		def obj;
@@ -118,7 +118,7 @@ public class SapKeywords {
 		obj = new ActiveXComponent(session.invoke("findById", locator).toDispatch());
 		obj.setProperty('text', text)
 	}
-	
+
 	@Keyword
 	def static setTextByName(String name, String text) {
 		def obj;

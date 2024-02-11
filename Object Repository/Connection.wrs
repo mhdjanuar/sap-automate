@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>Connection</name>
+   <tag></tag>
+   <locator>(//List//Header//HeaderItem)[1]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+</WindowsElementEntity>
