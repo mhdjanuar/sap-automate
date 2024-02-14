@@ -24,4 +24,9 @@
       <initValue>''</initValue>
       <name>billingNumber</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>poNumber</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -49,6 +49,8 @@ obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/tbar[0]/okcd").toD
 obj.setProperty("text", "VA01");
 obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
 obj.invoke("sendVKey", 0);
+WebUI.delay(5)
+sapHelpers.takeScreenshootWindow("20240212_0904")
 
 // Insert Order Type and Sales Organization
 obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/ctxtVBAK-AUART").toDispatch());

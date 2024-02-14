@@ -4,9 +4,10 @@
    <name>kat-sap-gui-sample-test</name>
    <tag></tag>
    <UUID>d8d9ad12-4dd6-44c0-8cbd-09551f5a2051</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\Administrator\git\kat-sap-gui-sample-test\demo-sap.prj</projectFileLocation>
+   <projectFileLocation>D:\Projects\Digiform\XL Automation\kat-sap-gui-sample-test\demo-sap.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -25,5 +26,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <timeStampInProperties>true</timeStampInProperties>
    <type>WEBUI</type>
 </Project>

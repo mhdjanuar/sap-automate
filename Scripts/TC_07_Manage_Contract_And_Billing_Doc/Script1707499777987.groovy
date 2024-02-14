@@ -220,7 +220,7 @@ obj.setProperty("caretPosition", 0);
 obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
 obj.invoke("sendVKey", 4);
 obj = new ActiveXComponent(session.invoke("findById", "wnd[1]/usr/cntlCONTAINER/shellcont/shell").toDispatch());
-obj.setProperty("selectionInterval", "20240211,20240211");
+obj.setProperty("selectionInterval", "20240212,20240212");
 obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
 obj.invoke("sendVKey", 0);
 
@@ -269,7 +269,7 @@ obj.invoke("select");
 obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
 obj.invoke("sendVKey", 4);
 obj = new ActiveXComponent(session.invoke("findById", "wnd[1]/usr/cntlCONTAINER/shellcont/shell").toDispatch());
-obj.setProperty("selectionInterval", "20240211,20240211");
+obj.setProperty("selectionInterval", "20240212,20240212");
 obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/tabsTAXI_TABSTRIP/tabpT\\03/ssubSUBSCREEN_BODY:SAPLV45W:4201/ctxtVEDA-VENDDAT").toDispatch());
 obj.setProperty("text", "10.02.2025");
 obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/tabsTAXI_TABSTRIP/tabpT\\03/ssubSUBSCREEN_BODY:SAPLV45W:4201/cmbVEDA-VLAUFK").toDispatch());
@@ -285,7 +285,7 @@ obj.setProperty("caretPosition", 0);
 obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
 obj.invoke("sendVKey", 4);
 obj = new ActiveXComponent(session.invoke("findById", "wnd[1]/usr/cntlCONTAINER/shellcont/shell").toDispatch());
-obj.setProperty("selectionInterval", "20240211,20240211");
+obj.setProperty("selectionInterval", "20240212,20240212");
 obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
 obj.invoke("sendVKey", 0);
 obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/tabsTAXI_TABSTRIP/tabpT\\03/ssubSUBSCREEN_BODY:SAPLV45W:4201/cmbVEDA-VLAUFK").toDispatch());
@@ -441,46 +441,47 @@ obj.invoke("press");
 
 // Edit Status to be Billing relesed
 	// ini gw coba buat manual dlu
-//obj = new ActiveXComponent(session.invoke("findById", "/app/con[0]/ses[0]/wnd[0]/usr/tabsTABSTRIP_0300/tabpANWS/ssubSUBSCREEN:SAPLBSVA:0302/tblSAPLBSVATC_E").toDispatch());
+obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/tabsTABSTRIP_0300/tabpANWS/ssubSUBSCREEN:SAPLBSVA:0302/tblSAPLBSVATC_E/radJ_STMAINT-ANWS[0,1]").toDispatch());
+obj.setProperty("selected", true);
+
 // ============================================================================================
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/tbar[0]/btn[3]").toDispatch());
-//obj.invoke("press");
-//
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/tbar[0]/btn[11]").toDispatch());
-//obj.invoke("press");
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[1]/usr/btnSPOP-VAROPTION1").toDispatch());
-//obj.invoke("press");
-//
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/tbar[0]/btn[3]").toDispatch());
-//obj.invoke("press");
-//
-//
-//// Goto  VA42
-//WebUI.delay(30)
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/tbar[0]/okcd").toDispatch());
-//obj.setProperty("text", "VA42");
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
-//obj.invoke("sendVKey", 0);
-//
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/ctxtVBAK-VBELN").toDispatch());
-//obj.setProperty("caretPosition", 7);
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
-//obj.invoke("sendVKey", 0);
-//
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\07").toDispatch());
-//obj.invoke("select");
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\07/ssubSUBSCREEN_BODY:SAPMV45A:4409/subSUBSCREEN_TC:SAPMV45A:4922/subSUBSCREEN_BUTTONS:SAPMV45A:4052/btnBT_PFPL").toDispatch());
-//obj.invoke("press");
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[1]/tbar[0]/btn[0]").toDispatch());
-//obj.invoke("press");
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/tabsTAXI_TABSTRIP_ITEM/tabpT\\07").toDispatch());
-//obj.invoke("select");
-//
-////Close Application
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
-//obj.invoke("close");
-//obj = new ActiveXComponent(session.invoke("findById", "wnd[1]/usr/btnSPOP-OPTION1").toDispatch());
-//obj.invoke("press");
+obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/tbar[0]/btn[3]").toDispatch());
+obj.invoke("press");
+
+obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/tbar[0]/btn[11]").toDispatch());
+obj.invoke("press");
+obj = new ActiveXComponent(session.invoke("findById", "wnd[1]/usr/btnSPOP-VAROPTION1").toDispatch());
+obj.invoke("press");
+
+obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/tbar[0]/btn[3]").toDispatch());
+obj.invoke("press");
+
+// Goto  VA42
+WebUI.delay(30)
+obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/tbar[0]/okcd").toDispatch());
+obj.setProperty("text", "VA42");
+obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
+obj.invoke("sendVKey", 0);
+
+obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/ctxtVBAK-VBELN").toDispatch());
+obj.setProperty("caretPosition", 7);
+obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
+obj.invoke("sendVKey", 0);
+
+obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\07").toDispatch());
+obj.invoke("select");
+obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\07/ssubSUBSCREEN_BODY:SAPMV45A:4409/subSUBSCREEN_TC:SAPMV45A:4922/subSUBSCREEN_BUTTONS:SAPMV45A:4052/btnBT_PFPL").toDispatch());
+obj.invoke("press");
+obj = new ActiveXComponent(session.invoke("findById", "wnd[1]/tbar[0]/btn[0]").toDispatch());
+obj.invoke("press");
+obj = new ActiveXComponent(session.invoke("findById", "wnd[0]/usr/tabsTAXI_TABSTRIP_ITEM/tabpT\\07").toDispatch());
+obj.invoke("select");
+
+//Close Application
+obj = new ActiveXComponent(session.invoke("findById", "wnd[0]").toDispatch());
+obj.invoke("close");
+obj = new ActiveXComponent(session.invoke("findById", "wnd[1]/usr/btnSPOP-OPTION1").toDispatch());
+obj.invoke("press");
 
 
 
