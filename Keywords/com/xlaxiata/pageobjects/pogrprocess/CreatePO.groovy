@@ -21,8 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class CreatePO {
-	
+
 	void gotoPage() {
-		
 	}
 }
