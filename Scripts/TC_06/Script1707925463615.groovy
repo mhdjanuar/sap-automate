@@ -31,10 +31,8 @@ WebUI.click(findTestObject('Web/BtnCancel'))
 WebUI.delay(5)
 
 createMaterial.login()
-
-WebUI.delay(5)
-
 // ========================== ZEQP – Asset XL – Equipment =======================
+WebUI.delay(5)
 WebUI.click(findTestObject('Web/CardMaterialService'))
 createMaterial.inputPersonalNo();
 
@@ -45,6 +43,7 @@ createMaterial.selectWithArrowDown(findTestObject('Web/SelectBaseUoM'), 3)
 createMaterial.zeqpAssetXLEquipment()
 
 //================================
+WebUI.delay(5)
 WebUI.click(findTestObject('Web/CardMaterialService'))
 createMaterial.inputPersonalNo();
 
@@ -55,6 +54,7 @@ createMaterial.selectWithArrowDown(findTestObject('Web/SelectBaseUoM'), 2)
 createMaterial.zfgtNonAssetXL()
 
 //================================
+WebUI.delay(5)
 WebUI.click(findTestObject('Web/CardMaterialService'))
 createMaterial.inputPersonalNo();
 
@@ -66,6 +66,7 @@ createMaterial.selectWithArrowDown(findTestObject('Web/SelectBaseUoM'), 2)
 createMaterial.zhawXLTradingGoods()
 
 //================================
+WebUI.delay(5)
 WebUI.click(findTestObject('Web/CardMaterialService'))
 createMaterial.inputPersonalNo();
 
@@ -76,6 +77,7 @@ createMaterial.selectWithArrowDown(findTestObject('Web/SelectBaseUoM'), 2)
 createMaterial.znwsAssetXlNonEquip()
 
 //================================
+WebUI.delay(5)
 WebUI.click(findTestObject('Web/CardMaterialService'))
 createMaterial.inputPersonalNo();
 

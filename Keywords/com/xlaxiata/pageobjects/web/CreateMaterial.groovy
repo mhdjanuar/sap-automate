@@ -73,8 +73,11 @@ public class CreateMaterial {
 		String valueExternalMaterial, 
 		TestObject valueLaboratory = null
 	) {
+		
 		// Goto Tab Basic
-		WebUI.click(findTestObject('Web/TabBasic'))
+		for (int i = 0; i <= 3; i++) {
+			WebUI.click(findTestObject('Web/TabBasic'))
+		}
 		
 		//Input Material Group
 		select(findTestObject('Web/SelectMaterialGroup'), valueMaterialGroup)
@@ -150,19 +153,30 @@ public class CreateMaterial {
 	def submit () {
 		WebUI.click(findTestObject('Web/BtnSave'))
 		
-		boolean isButtonOk = WebUI.verifyElementPresent(findTestObject('Web/BtnOk'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+		boolean isButtonOk = WebUI.verifyElementPresent(findTestObject('Web/BtnOk'), 5, FailureHandling.OPTIONAL)
 		
 		if(isButtonOk) {
 			WebUI.click(findTestObject('Web/BtnOk'))
-//			WebUI.click(findTestObject('Web/BtnSaveDraft'))
-//			WebUI.click(findTestObject('Web/BtnSubmit'))
+			WebUI.click(findTestObject('Web/BtnSaveDraft'))
+			
+			// Submit
+			for(int i = 0; i <= 5; i++) {
+				WebUI.click(findTestObject('Web/BtnSubmit'))
+				
+				boolean isBtnSubmitGone = WebUI.verifyElementNotPresent(findTestObject('Web/BtnSubmit'), 0, FailureHandling.OPTIONAL)
+				if(isBtnSubmitGone) {
+					println("element not exist")
+					
+					return;
+				}
+			}
 		}
 	}
 	
 	// ================================ Main Function
 	
 	def zeqpAssetXLEquipment () {
-		tabClasificationStep(findTestObject('Web/ChooseOptionNoun'), 5)
+		tabClasificationStep(findTestObject('Web/SelectOptionNounZEQP'), 5)
 		
 		tabBasicStep(
 			findTestObject('Web/ChooseMaterialGroupZ0001'),
@@ -194,7 +208,7 @@ public class CreateMaterial {
 	}
 	
 	def zfgtNonAssetXL () {
-		tabClasificationStep(findTestObject('Web/SelectOptionNounANT'), 7)
+		tabClasificationStep(findTestObject('Web/SelectOptionNounZFGT'), 6)
 		
 		tabBasicStep(
 			findTestObject('Web/ChooseMaterialGroupZ0004'),
@@ -224,7 +238,7 @@ public class CreateMaterial {
 	}
 	
 	def zhawXLTradingGoods () {
-		tabClasificationStep(findTestObject('Web/SelectOptionNounSimcard'), 1)
+		tabClasificationStep(findTestObject('Web/SelectOptionNounZHAW'), 7)
 		
 		tabBasicStep(
 			findTestObject('Web/ChooseMaterialGroupZ0001'),
@@ -255,7 +269,7 @@ public class CreateMaterial {
 	}
 	
 	def znwsAssetXlNonEquip () {
-		tabClasificationStep(findTestObject('Web/ChooseOptionNoun'), 2)
+		tabClasificationStep(findTestObject('Web/SelectOptionNounZNWS'), 8)
 		
 		tabBasicStep(
 			findTestObject('Web/ChooseMaterialGroupZ0001'),
@@ -286,7 +300,7 @@ public class CreateMaterial {
 	}
 	
 	def zserService () {
-		tabClasificationStep(findTestObject('Web/SelectOptionNounSimcard'), 1)
+		tabClasificationStep(findTestObject('Web/SelectOptionNounZSER'), 9)
 		
 		tabBasicStep(
 			findTestObject('Web/ChooseMaterialGroupZ0004'),
@@ -316,14 +330,13 @@ public class CreateMaterial {
 	}
 	
 	def zsfwXlSoftware () {
-		tabClasificationStep(findTestObject('Web/SelectOptionNounFiller'), 2)
+		tabClasificationStep(findTestObject('Web/SelectOptionNounZSWF'), 10)
 		
 		tabBasicStep(
 			findTestObject('Web/ChooseMaterialGroupZ0001'),
 			findTestObject('Web/ChooseDivision'),
 			"NEW003",
-			null
-		)
+			findTestObject('Web/ChooseLaboratory'))
 		
 		tabAccountingStep("1300000", "3109")
 		

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>BtnSubmit</name>
+   <name>SelectOptionNounZEQP</name>
    <tag></tag>
-   <elementGuidId>4fd54be2-ef28-4189-8085-0885e53a45e8</elementGuidId>
+   <elementGuidId>eaa129c0-c732-4d63-a6d5-72a4f7daf8c1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>((//div[contains(@class, 'lsButtonRow')])[1]//div)[3]</value>
+         <value>//div[contains(text(), 'SW-SOFTWARE(Description)')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value>//*[@ref_element = 'Object Repository/Web/Iframe_2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Web/Iframe_2</value>
-      <webElementGuid>957bf52c-6e87-4250-b7f6-223a85116579</webElementGuid>
+      <webElementGuid>53cbfc74-f53e-4d40-9b2e-c7e9d9f9087e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
